@@ -1,5 +1,4 @@
 body {
-    font-family: sans-serif;
     background-color: #ffffff;
 }
 
@@ -63,12 +62,14 @@ body {
     margin: auto;
     }
   }
+
+.img-locate{
+    width:10%;
+    height:0%;
 }
 
-.locate{
-    width:0.5%;
-    height:0.5%;
-}
+
+
 
 
 
