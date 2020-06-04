@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-light .navbar-brand {
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-light .navbar-brand {
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.box{
+  left:-webkit-calc( 50% - 250px );
+  position:absolute;
+    top:50%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+	border-radius:5px;
+	@include box-shadow(0 20px 30px rgba(0,0,0,.6));
+	border:1px solid rgba(255,255,255,.3);
+	padding:20px;
+	text-align: center;
+	@include box-sizing(border-box);
+  display: flex;
+  transition: box-shadow .3s ease;
+  
+	&:active{
+    cursor:move;
+    @include box-shadow(0 20px 50px rgba(0,0,0,.9));
+  }
+   
+  
+  .content{
+    margin: auto;
+    }
+  }
+}
+
+.locate{
+    width:0.5%;
+    height:0.5%;
+}
+
+
+
+

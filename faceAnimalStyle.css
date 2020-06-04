@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+.file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.file-upload-btn:hover {
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.file-upload-btn:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+.image-upload-wrap {
+    margin-top: 20px;
+    border: 4px dashed #1fb264;
+    position: relative;
+}
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #35465d;
+    border: 1.5px dashed #ffffff;
+}
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+.drag-text {
+    text-align: center;
+}
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824b;
+    padding: 60px 0;
+}
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+.remove-image {
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
+}
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-color: #c13b2a;
+}
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-light .navbar-brand {
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+.section {
+    margin-top: 100px;
+}
+.title {
+    font-family: NanumSquareR;
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+}
+.subtitle {
+    font-family: NanumSquareR;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+} /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+.file-upload {
+    /*margin: 0 auto; padding: 20px; width: 914px; height: 50vw;*/
+    padding: 13% 3%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+.image-upload-wrap {
+    width: 57%;
+    border: 4px dashed #1fb264;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #35465d;
+    background-color: #ffffff;
+}
+.upload {
+    width: 20%;
+}
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: NanumSquareR;
+    font-size: 1.6rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    width: 55%;
+    margin: 0 auto;
+}
+.image-upload-wrap {
+    width: 70%;
+    margin: 0 auto;
+}
